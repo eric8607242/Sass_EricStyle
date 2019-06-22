@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.s1 {
+  font-size: 0.75em;
+}
+
+.t1 {
+  font-size: 1.5em;
+}
+
+.t2 {
+  font-size: 2em;
+}
+
+.o-navbar {
+  padding: 10px;
+}
+
+.o-list--left {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: flex-start;
+}
+.o-list--left li {
+  margin-left: 1rem;
+}
+
+.o-list--center {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: center;
+}
+.o-list--center li {
+  margin-left: 1rem;
+}
+
+.o-list__item--white a {
+  text-align: center;
+}
+.o-list__item--white a {
+  color: #ffffff;
+}
+
+.o-list__item--tag a {
+  text-align: center;
+}
+.o-list__item--tag a {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  color: #999999;
+  letter-spacing: 1px;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.c-post {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+  background-color: #ffffff;
+  margin: 48px auto;
+  width: 50rem;
+}
+
+.o-post__cover {
+  height: 15rem;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.c-post__body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.o-post__summary {
+  min-height: 10rem;
+}
+.o-post__summary p {
+  color: #4d4d4d;
+}
+
+.tags__content {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 0 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 5rem;
+}
+
+.c-post__footer {
+  border-top: 1px solid #e6e6e6;
+  margin: 0 auto;
+  padding-bottom: 0.125rem;
+  width: 80%;
+}
+
+.c-header {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
+  height: 30rem;
+}
+
+/*# sourceMappingURL=main.css.map */

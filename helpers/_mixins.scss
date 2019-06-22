@@ -1,0 +1,17 @@
+@mixin list{
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin: 1em;
+     li{
+          margin-left: 1rem;
+     }
+}
+
+
+@mixin list__item{
+     a {
+          text-align: center;
+     }
+}

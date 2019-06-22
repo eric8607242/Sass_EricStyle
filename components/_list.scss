@@ -1,0 +1,30 @@
+
+.o-list--left{
+     @include list;
+     justify-content: flex-start;
+}
+
+.o-list--center{
+     @include list;
+     justify-content: center
+}
+
+.o-list__item--white{
+     @include list__item;
+     a {
+          color: #ffffff;
+     }
+}
+
+.o-list__item--tag{
+     @include list__item;
+     a {
+          border: 1px solid lighten(#333, 40%);
+          border-radius: 3px;
+          color: lighten(#333, 40%);
+          
+          letter-spacing: 1px;
+          padding: 0 .5rem;
+          text-transform: uppercase;
+     }
+}

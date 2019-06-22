@@ -1,0 +1,47 @@
+.c-post{
+     border-radius: 5px;
+     box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
+     background-color:#ffffff;
+     margin: 48px auto;
+     width: 50rem;
+}
+
+.o-post__cover{
+     height: 15rem;
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
+     background-size: cover;
+     border-radius: 5px 5px 0 0;
+}
+
+.c-post__body{
+     margin: 0 auto;
+     width: 80%;
+}
+
+.o-post__summary{
+     min-height: 10rem;
+     p {
+          color: lighten(#333, 10%);
+     }
+}
+.tags__content{
+     border: 1px solid lighten(#333, 40%);
+     border-radius: 3px;
+     color: lighten(#333, 40%);
+     font-size: .75rem;
+     height: 1.5rem;
+
+     letter-spacing: 1px;
+     padding: 0 .5rem;
+     text-align: center;
+     text-transform: uppercase;
+     width: 5rem;
+}
+
+.c-post__footer {
+     border-top: 1px solid lighten(#333, 70%);
+     margin: 0 auto;
+     padding-bottom: .125rem;
+     width: 80%;
+}
+
