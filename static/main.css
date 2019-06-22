@@ -22,6 +22,10 @@ ul {
   font-size: 0.75em;
 }
 
+.s2 {
+  font-size: 1em;
+}
+
 .t1 {
   font-size: 1.5em;
 }
@@ -32,6 +36,19 @@ ul {
 
 .o-navbar {
   padding: 10px;
+}
+
+.l-content--center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-text--center {
+  display: block;
+  text-align: center;
 }
 
 .o-list--left {
@@ -127,6 +144,27 @@ ul {
 .c-header {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
   height: 30rem;
+}
+
+.o-img {
+  height: 250px;
+}
+
+.o-img--circle {
+  border-radius: 50%;
+}
+
+.c-about {
+  margin-top: 50px;
+}
+
+.c-about__introduction {
+  height: 300px;
+  background-color: #ffffff;
+}
+
+.o-header__name {
+  letter-spacing: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
