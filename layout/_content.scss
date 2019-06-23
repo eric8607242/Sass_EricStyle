@@ -1,12 +1,14 @@
-.l-content--center{
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items:center;
-}
-
 .l-text--center{
     display:block;
     text-align:center;
+}
+
+.l-about__items--center{
+    @include item--center;
+    height:500px;
+    padding-bottom:20px;
+}
+
+.l-about__item{
+    margin-top:40px;
 }
