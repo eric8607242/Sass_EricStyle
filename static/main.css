@@ -151,6 +151,43 @@ a {
   width: 80%;
 }
 
+.c-article {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+  background-color: #ffffff;
+  margin: 48px auto;
+  width: 80%;
+}
+
+.c-article__body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.tags__content {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 0 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 5rem;
+}
+
+.c-article__footer {
+  border-top: 1px solid #e6e6e6;
+  margin: 0 auto;
+  padding-bottom: 0.125rem;
+  width: 80%;
+}
+
+.o-article__title {
+  color: #000000;
+}
+
 .c-header {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
   height: 30rem;
